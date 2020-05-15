@@ -10,7 +10,7 @@ function nestedTarget(){
 
 function deepestChild(){
   var nodes = document.querySelector('div#grand-node')
-  return node
+  return nodes[nodes.length -1]
 
 }
 
